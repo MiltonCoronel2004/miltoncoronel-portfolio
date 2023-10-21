@@ -2,6 +2,7 @@ import React from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
+import resume from '../assets/resumeMiltonCoronel.pdf'
 
 const SocialLinks = () => {
     const links = [
@@ -40,18 +41,18 @@ const SocialLinks = () => {
             Resume <BsFillPersonLinesFill size={30} />
           </>
         ),
-        href: 'https://download1584.mediafire.com/vmsk45ga4twgIChWNQrHszOUx4m23AiqRvUwqIGR4ofC44ARo3ZzJPgBDm4E8qewhuRz4scHgFTt8_WYT-IOqhZmGSGdzGKBvHDj7IpsOIKG6y_2OuYdGY2ABinTX-DbhbHbnpnadCkcOzg8KnYEXCh73Ee_pMfPn74DummfkdTf/906rvswigqczweo/resumeMiltonCoronel.pdf',
-        style: 'rounded-br-md'
+        href: resume,
+        download: true
       },
     ]
 
   return (
     <div className='hidden lg:flex flex-col top-[35%] left-0 fixed'>
       <ul>
-        {links.map(link => (
-          <li key={link.id} className={"flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gradient-to-r from-yellow-500 to-orange-500" + " " + link.style}> 
-          <a href={link.href} className='flex justify-between items-center w-full text-white' target='_blank' rel='noreferrer'>
-            {link.child}
+        {links.map(({id, href, download, child, style}) => (
+          <li key={id} className={"flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gradient-to-r from-yellow-500 to-orange-500" + " " + style}> 
+          <a href={href} className='flex justify-between items-center w-full text-white' target='_blank' rel='noreferrer' download={download}>
+            {child}
           </a>
           </li>
         ))}

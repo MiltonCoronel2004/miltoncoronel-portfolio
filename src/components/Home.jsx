@@ -12,7 +12,7 @@ const Home = () => {
             Desarrollador de Software Full Stack
           </h2>
           <p className='py-4 text-gray-500'>
-            Mi nombre es Milton Coronel, Tengo 4 años de estudio en el área informática y 3 años de experiencia en el desarrollo de software. Actualmente me encuentro desarrollando proyectos web propios con tecnologias como React, PHP, Node.js, Laravel, MySQL y MongoDB.
+            Mi nombre es Milton Coronel. Tengo 6 años de estudio en el área informática y 3 años de experiencia en el desarrollo de software. Actualmente, me encuentro desarrollando proyectos web propios con tecnologías como React, PHP, Node.js, Laravel, MySQL y MongoDB.
           </p>
 
           <div className='flex justify-center md:inline'>

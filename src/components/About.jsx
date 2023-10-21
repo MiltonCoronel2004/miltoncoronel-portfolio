@@ -11,7 +11,7 @@ const About = () => {
         </div>
 
         <p className='text-xl py-6'>
-          Soy un Desarrollador de Software Full Stack en busca de su primer trabajo como programador, mi experiencia consta de proyectos hechos en tres años estudiando programación por mi cuenta junto a 6 años de estudio en escuela secundaria técnica orientada a la informática donde aprendí tambien programación. Tengo pasión por el aprendizaje y me adapto rapido a todas las situaciones, ademas soy muy bueno trabajando en equipo y tengo planes de tener estudios terciarios como "Técnico Superior en Programación".
+          Soy un Desarrollador de Software Full Stack en busca de mi primer trabajo como programador. Mi experiencia consta de proyectos realizados en tres años de estudio de programación por cuenta propia, junto con 6 años de educación en una escuela secundaria técnica orientada a la informática, donde también aprendí programación durante 4 años. Tengo pasión por el aprendizaje y me adapto rápido a todas las situaciones. Además, soy muy bueno trabajando en equipo y tengo planes de realizar estudios terciarios, como un "Técnico Superior en Programación".
         </p>
 
         <br />
