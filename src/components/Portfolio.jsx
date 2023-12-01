@@ -41,7 +41,7 @@ const Portfolio = () => {
       id: 6,
       src: taskManager,
       title: "Task Manager Node",
-      codeLink: 'https://github.com/MiltonCoronel2004',
+      codeLink: 'https://github.com/MiltonCoronel2004/TaskManager-React-Node',
     },
   ];
 
