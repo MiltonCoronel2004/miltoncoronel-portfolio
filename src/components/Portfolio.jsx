@@ -1,9 +1,9 @@
-import React from 'react';
 import ahorareconquista from '../assets/ahorareconquista.png';
 import sivige from '../assets/sivige.png';
 import biblioteca from '../assets/biblioteca.png';
 import ImgReactSearch from '../assets/ImgReactSearch.png';
 import crud from '../assets/crud.jpg';
+import taskManager from '../assets/taskManager.png'
 
 const Portfolio = () => {
   const portfolios = [
@@ -37,12 +37,16 @@ const Portfolio = () => {
       title: "Sistema de Gestion de Stock",
       codeLink: 'https://github.com/MiltonCoronel2004/CRUD-Laravel-React',
     },
+    {
+      id: 6,
+      src: taskManager,
+      title: "Task Manager Node",
+      codeLink: 'https://github.com/MiltonCoronel2004',
+    },
   ];
 
 
-  const alert = () => {
-    alert("Codigo Adquirido por un Cliente.");
-  }
+
   
 
   return (
@@ -54,7 +58,7 @@ const Portfolio = () => {
         </div>
 
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 mb-16'>
-          {portfolios.map(({ id, src, title, demoLink, codeLink, onClick }) => (
+          {portfolios.map(({ id, src, title, codeLink }) => (
             <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
               <img src={src} alt="Work" className='rounded-md duration-200 hover:scale-105 h-48' />
               <p className='flex justify-center pt-2 text-sm text-center'>{title}</p>
