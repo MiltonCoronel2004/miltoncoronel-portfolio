@@ -1,7 +1,7 @@
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import resume from '../assets/CVMiltonCoronelBackendDeveloper.pdf'
+import resume from '../assets/CVMiltonCoronelDesarrolladorFullStack.pdf'
 
 const SocialLinks = () => {
     const links = [
