@@ -11,7 +11,7 @@ const Portfolio = () => {
       id: 1,
       src: blooddonors,
       title: "Base de Datos de Donadores de Sangre",
-      codeLink: 'https://github.com/MiltonCoronel2004/TaskManager-React-Node',
+      codeLink: 'https://github.com/MiltonCoronel2004/Sistema-de-Donadores-de-Sangre',
     },
     {
       id: 2,
@@ -34,14 +34,14 @@ const Portfolio = () => {
     {
       id: 5,
       src: ImgReactSearch,
-      title: "React Search Images API",
+      title: "React Search Images by API",
       codeLink: 'https://github.com/MiltonCoronel2004/React-Img-Search-API',
     },
     {
       id: 6,
       src: hotelreserva,
       title: "Desafio PHP: Reservas de Habitación",
-      codeLink: 'https://github.com/MiltonCoronel2004/CRUD-Laravel-React',
+      codeLink: 'https://github.com/MiltonCoronel2004/Sistema-de-Reservas-de-Hotel',
     },
   ];
 
