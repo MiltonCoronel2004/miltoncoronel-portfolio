@@ -11,9 +11,9 @@ const Contact = () => {
 
         <div className='flex justify-center items-center'>
           <form action="https://getform.io/f/e0564733-9b17-4f4c-b6af-7921645e7399" method='post' className='flex flex-col w-full md:w-1/2'>
-            <input type="text" name='name' placeholder='Nombre' className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none' />
-            <input type="email" name='email' placeholder='Correo electronico' className='my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none' />
-            <textarea name='message' rows="10" className='p-2 bg-transparent border-2 rounded-md  text-white focus:outline-none' placeholder='Mensaje'></textarea>
+            <input type="text" name='name' placeholder='Nombre' className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none' required/>
+            <input type="email" name='email' placeholder='Correo electronico' className='my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none' required/>
+            <textarea name='message' rows="10" className='p-2 bg-transparent border-2 rounded-md  text-white focus:outline-none' placeholder='Mensaje' required></textarea>
 
             <button className='text-white bg-gradient-to-r from-yellow-500 to-red-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300'>Contactar</button>
           </form>

@@ -13,6 +13,7 @@ import csharp from '../assets/csharp.png'
 import express from '../assets/express.png'
 import bootstrap from '../assets/bootstrap.png'
 import git from '../assets/git.png'
+import net from '../assets/net.png'
 
 const Experience = () => {
   const techs = [
@@ -108,6 +109,12 @@ const Experience = () => {
       src: csharp,
       title: 'C#',
       style: 'shadow-blue-500'
+    },
+    {
+      id: 4,
+      src: net,
+      title: '.NET',
+      style: 'shadow-purple-500'
     }
   ]
 
@@ -116,7 +123,7 @@ const Experience = () => {
       <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white pt-16'>
         <div>
           <p className='text-4xl font-bold border-b-4 border-gray-500 p-2 inline'>Experiencia Principal</p>
-          <p className='py-6'>Estas son las técnologias con las que he trabajado</p>
+          <p className='py-6'>Estas son las técnologias donde mi conocimiento es amplio</p>
         </div>
 
         <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0'>
@@ -134,7 +141,7 @@ const Experience = () => {
       <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white pt-16'>
         <div>
           <p className='text-4xl font-bold border-b-4 border-gray-500 p-2 inline'>Tecnologías secundarias</p>
-          <p className='py-6'>Estas son las técnologias con las que he trabajado</p>
+          <p className='py-6'>Tecnologías secundarias que he llegado a probar</p>
         </div>
 
         <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0'>
