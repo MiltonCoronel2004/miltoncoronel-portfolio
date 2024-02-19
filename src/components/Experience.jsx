@@ -50,15 +50,15 @@ const Experience = () => {
     },
     {
       id: 6,
-      src: js, 
-      title: 'JavaScript',
-      style: 'shadow-yellow-500'
+      src: git, 
+      title: 'Git',
+      style: 'shadow-orange-400'
     },
     {
       id: 7,
-      src: tailwindcss, 
-      title: 'Tailwind CSS',
-      style: 'shadow-cyan-500'
+      src: js, 
+      title: 'JavaScript',
+      style: 'shadow-yellow-500'
     },
     {
       id: 8,
@@ -73,19 +73,19 @@ const Experience = () => {
       style: 'shadow-gray-400'
     },
     {
-      id: 9,
-      src: git, 
-      title: 'Git',
-      style: 'shadow-orange-400'
+      id: 10,
+      src: tailwindcss, 
+      title: 'Tailwind CSS',
+      style: 'shadow-cyan-500'
     },
     {
-      id: 10,
+      id: 11,
       src: html, 
       title: 'HTML',
       style: 'shadow-orange-500'
     },
     {
-      id: 11,
+      id: 12,
       src: css, 
       title: 'CSS',
       style: 'shadow-blue-500'
@@ -106,19 +106,19 @@ const Experience = () => {
       style: 'shadow-yellow-500'
     },
     {
-      id: 2,
+      id: 3,
       src: mongodb,
       title: 'MongoDB',
       style: 'shadow-green-500'
     },
     {
-      id: 3,
+      id: 4,
       src: csharp,
       title: 'C#',
       style: 'shadow-blue-500'
     },
     {
-      id: 4,
+      id: 5,
       src: net,
       title: '.NET',
       style: 'shadow-purple-500'
