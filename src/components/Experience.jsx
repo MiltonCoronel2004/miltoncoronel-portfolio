@@ -14,6 +14,7 @@ import express from '../assets/express.png'
 import bootstrap from '../assets/bootstrap.png'
 import git from '../assets/git.png'
 import net from '../assets/net.png'
+import aws from '../assets/aws.png'
 
 const Experience = () => {
   const techs = [
@@ -43,6 +44,12 @@ const Experience = () => {
     },
     {
       id: 5,
+      src: aws, 
+      title: 'Amazon Web Services',
+      style: 'shadow-orange-500'
+    },
+    {
+      id: 6,
       src: js, 
       title: 'JavaScript',
       style: 'shadow-yellow-500'
